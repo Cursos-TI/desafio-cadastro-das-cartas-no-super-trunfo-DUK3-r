@@ -4,9 +4,6 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-#include <stdio.h>
-
 /*UTILIZADO AS FUNÇÕES ENSINADAS EM AULA PELO PROFESSOR SERGIO PARA APLICAÇÃO DESSA ATIVIDADE!!!
 COM ALGUMAS MELHORIAS CONHECIDAS E OUTRAS QUE PESQUISEI NA INTERNET PARA PODER DEIXAR O PROGRAMA MAIS CLARO!!!
 */
