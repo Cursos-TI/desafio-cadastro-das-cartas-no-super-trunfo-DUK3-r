@@ -3,10 +3,9 @@
 /*UTILIZADO AS FUNÇÕES ENSINADAS EM AULA PELO PROFESSOR SERGIO PARA APLICAÇÃO DESSA ATIVIDADE!!!
 COM ALGUMAS MELHORIAS CONHECIDAS E OUTRAS QUE PESQUISEI NA INTERNET PARA PODER DEIXAR O PROGRAMA MAIS CLARO!!!
 */
-int main()
-{
+int main(){
     // VARIAVEIS SALVAS SEM CONTEUDO PARA PREENCHER AS INFORMAÇÕES NO FORMULARIO
-    char codigo_cidade[3];
+    char codigo_cidade[2];
     char nome[50];
     double populacao;
     double area;
@@ -22,8 +21,8 @@ int main()
     printf("Cadastre a nova carta do SuperTrunfo\n");
 
     printf("Digite o codigo da cidade: ");
-    scanf("%2s", &codigo_cidade);
-    while (getchar() != '\n'); // Limpa o buffer para evitar problemas na leitura de fgets
+    scanf("%2s", codigo_cidade);
+    while (getchar() != '\n');  // Limpa o buffer para evitar problemas na leitura de fgets
 
     printf("Digite o nome da cidade: ");
     fgets(nome, 50, stdin);
